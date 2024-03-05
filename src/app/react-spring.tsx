@@ -7,13 +7,7 @@ import { Inventory } from "@/app/react-spring/inventory";
 import { Lines } from "@/app/react-spring/lines";
 import { Logo } from "@/app/react-spring/logo";
 import { Menu } from "@/app/react-spring/menu";
-import {
-	AppleIcon,
-	HomeIcon,
-	NavMenu,
-	PaypalIcon,
-	StoryIcon,
-} from "@/app/react-spring/nav-menu";
+import { HomeIcon, NavMenu, StoryIcon } from "@/app/react-spring/nav-menu";
 import { screenHeight, screenWidth } from "@/app/react-spring/screen";
 import { SocialMenu } from "@/app/react-spring/social-menu";
 
@@ -83,11 +77,12 @@ export const ReactSpring = () => {
 			<Gear
 				from={{
 					rotate: "20deg",
+					scaleX: "-1",
 					left: `${(722 / screenWidth) * 100}%`,
 					top: `${(375 / screenHeight) * 100}%`,
 				}}
 				to={{
-					rotate: "-135deg",
+					rotate: "225deg",
 					left: `${(883 / screenWidth) * 100}%`,
 					top: `${(261 / screenHeight) * 100}%`,
 				}}
@@ -96,11 +91,12 @@ export const ReactSpring = () => {
 			<Gear
 				from={{
 					rotate: "20deg",
+					scaleX: "-1",
 					left: `${(777 / screenWidth) * 100}%`,
 					top: `${(422 / screenHeight) * 100}%`,
 				}}
 				to={{
-					rotate: "-135deg",
+					rotate: "225deg",
 					left: `${(1018 / screenWidth) * 100}%`,
 					top: `${(268 / screenHeight) * 100}%`,
 				}}
