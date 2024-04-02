@@ -1,3 +1,5 @@
+<img width="1364" alt="image" src="https://github.com/linkb15/animation/assets/24437987/75e38d57-7462-4c7f-8363-5f171b9d41f9">
+
 # Animation
 
 > This repo is used for this [Reddit Post 🔗](https://www.reddit.com/r/nextjs/comments/18zt889/animation_is_hard).
